@@ -3,29 +3,111 @@
 	<head>
 		<title>DWS Lab 1</title>
 		<meta charset="utf-8"/>
+		<style type="text/css">
+			/*DWS Lab1 CSS File*/
+* html {
+	margin: -21px 0px 0px 10px;
+	background-color: white;
+
+}
+body{
+	padding: 15px;
+	width: 800px;
+	margin: 0px auto;
+	background-color: #eee8cd;
+	color: #000;
+	font-family: Helvetica Nue, Arial, "MS Trebuchet", sans-serif;
+}
+h1{
+	padding: 10px 10px;
+	margin: 0px auto;
+	width: 250px;
+}
+ol{
+	margin-left: 10px;
+	padding: 0px;
+	list-style: none;
+}
+nav{	
+	width: 60%;
+	margin: 0px auto;
+}
+a{
+	color: #c0c0c0;
+	display: inline;
+	margin: 0px 5px;
+}
+a:hover {
+	color: #000;
+}
+.classisntreallyneededherebuttheassignmentcallsforone{
+	margin: 95px auto 5px auto;
+	width: 300px;
+}
+#bodycontent{
+	margin-top: 50px;
+	width: 500px;
+}
+a, nav, ol{
+	padding: 10px;
+}
+nav a {
+	padding: 0px;
+}
+/*css trick I found, using psuedo elements*/
+#star-six {
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #c0c0c0;
+	position: relative;
+}
+#star-six:after {
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid #c0c0c0;
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: -50px;
+}
+/*css trick I found, using psuedo elements*/
+
+#wrapper {
+	width: 100px;
+	margin: 0px auto;
+}
+		</style>
 	</head>
 	<body>
 		<h1>Company Name</h1>
-		<ul>
-			<li><a href="#">Nav button</a></li>
-			<li><a href="#">Nav button</a></li>
-			<li><a href="#">Nav button</a></li>
-			<li><a href="#">Nav button</a></li>
-			<li><a href="#">Nav button</a></li>
-		</ul>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-		<h2>Section Title</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-		<ol>
-			<li>sample sequence 1</li>
-			<li><span>sample sequence 2</span></li>
-			<li>sample sequence 3</li>
-			<li>sample sequence 4</li>
-			<li>sample sequence 5</li>
-		</ol>
-		<h3>Sub-section Title</h3>
-		<p>Thank you for visiting my website. &copy; 2012</p>
+		<nav>
+			<a href="#">Nav button</a>
+			<a href="#">Nav button</a>
+			<a href="#">Nav button</a>
+			<a href="#">Nav button</a>
+			<a href="#">Nav button</a>
+		</nav>
+		<div id="wrapper"><div id="star-six"></div></div>
+		<div class="classisntreallyneededherebuttheassignmentcallsforone" id="bodycontent">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<h2>Section Title</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<ol>
+				<li>sample sequence 1</li>
+				<li><span>sample sequence 2</span></li>
+				<li>sample sequence 3</li>
+				<li>sample sequence 4</li>
+				<li>sample sequence 5</li>
+			</ol>
+			<h3>Sub-section Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		</div>
+		<p class="classisntreallyneededherebuttheassignmentcallsforone"id="endingcomments">Thank you for visiting my website. &copy; 2012</p>
 	</body>
 </html>
