@@ -1,5 +1,5 @@
 /*DWS Lab1 CSS File*/
-* html {
+* html{
 	margin: -21px 0px 0px 10px;
 }
 body{
@@ -29,7 +29,7 @@ a{
 	display: inline;
 	margin: 0px 5px;
 }
-a:hover {
+a:hover{
 	color: #000;
 }
 .classisntreallyneededherebuttheassignmentcallsforone{
@@ -43,12 +43,12 @@ a:hover {
 a, nav, ol{
 	padding: 10px;
 }
-nav a {
+nav a{
 	padding: 0px;
 }
 
-/*css trick I found, using psuedo elements*/
-#star-six {
+/* css trick I found, using psuedo elements */
+#star-six{
 	width: 0px;
 	height: 0px;
 	border-left: 50px solid transparent;
@@ -56,7 +56,7 @@ nav a {
 	border-bottom: 100px solid #c0c0c0;
 	position: relative;
 }
-#star-six:after {
+#star-six:after{
 	width: 0px;
 	height: 0px;
 	border-left: 50px solid transparent;
@@ -67,8 +67,9 @@ nav a {
 	top: 30px;
 	left: -50px;
 }
-/*css trick I found, using psuedo elements*/
-#wrapper {
+/* end trick */
+
+#wrapper{
 	width: 100px;
 	margin: 0px auto;
 }
