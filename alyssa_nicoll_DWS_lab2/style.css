@@ -18,7 +18,7 @@ li a{
 	color: #000;
 }
 /*=copy style*/
-div>p{
+body>p{
 	font-style: italics;
 	font-variant: small-caps;
 	font-weight: bolder;
