@@ -5,17 +5,17 @@ body{
 	font-size: 62.5%;
 }
 /*=h1 style*/
-h1{
-	font: normal normal normal 1.5em/1.5em "Helvetica Neue", sans-serif;
+h1, h2, h3{
+	font: normal normal normal 5em/1.5em "Helvetica Neue", sans-serif;
 }
 /*=ul style*/
-ul{
+ul, ol{
 	list-style-type: square;
-	opacity: .3;
+	opacity: .5;
 	font-size: 3em;
 }
-li a{
-	color: #000;
+li a, ol{
+	color: #fff;
 }
 /*=copy style*/
 body>p{
@@ -29,8 +29,8 @@ body>p{
 	text-decoration: underline;
 	line-height: 50%;
 	vertical-align: baseline;
-	color: rgba(000, 000, 000, .25);
-	text-shadow: 10px 10px 10px #fff;
+	color: rgba(000, 000, 000, .5);
+	text-shadow: 10px 10px 20px #fff;
 	letter-spacing: 50px;
 	word-spacing: 10px;
 	text-indent: 100px;
