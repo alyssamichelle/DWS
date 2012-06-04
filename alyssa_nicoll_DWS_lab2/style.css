@@ -9,7 +9,7 @@ h1{
 	font: normal normal normal 1.5em/1.5em "Helvetica Neue", sans-serif;
 }
 /*=ul style*/
-ul{
+li a{
 	list-style-type: square;
 	opacity: .3;
 	color: #000;
