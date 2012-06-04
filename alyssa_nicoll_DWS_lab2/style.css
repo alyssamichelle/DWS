@@ -15,6 +15,7 @@ ul, ol{
 	opacity: .5;
 	font-size: 3em;
 	list-style-type: square;
+	text-transform: capitalize;
 }
 li a, ol{
 	color: #fff;
