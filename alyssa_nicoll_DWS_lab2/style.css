@@ -10,15 +10,17 @@ h1{
 }
 /*=ul style*/
 ul{
-	list-style-type
+	list-style-type: square;
 	opacity: .3;
+	color: #000;
+	list-style: none;
 }
 /*=copy style*/
 div>p{
 	font-style: italics;
 	font-variant: small-caps;
 	font-weight: bolder;
-	font-size: 1.5em;
+	font-size: 3em;
 	font-height: 1.6em;
 	font-family: Helvetica, sans-serif;
 	text-align: right;
