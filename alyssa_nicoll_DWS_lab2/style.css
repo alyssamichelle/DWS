@@ -13,7 +13,7 @@ ul{
 	list-style-type: square;
 	opacity: .3;
 	color: #000;
-	list-style: none;
+	font-size: 3em;
 }
 /*=copy style*/
 div>p{
@@ -27,7 +27,7 @@ div>p{
 	text-decoration: underline;
 	line-height: 50%;
 	vertical-align: baseline;
-	color: rgba(255, 255, 255, .5);
+	color: rgba(000, 000, 000, .25);
 	text-shadow: 10px 10px 10px #fff;
 	letter-spacing: 50px;
 	word-spacing: 10px;
