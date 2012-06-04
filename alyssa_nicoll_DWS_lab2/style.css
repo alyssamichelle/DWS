@@ -1,38 +1,42 @@
 /*=body style*/
 body{
 	color: #fff;
-	background-color: #000;
 	font-size: 62.5%;
+	background-color: #000;
 }
 /*=h1 style*/
 h1, h2, h3{
-	font: normal normal normal 5em/1.5em "Helvetica Neue", sans-serif;
+	/*I have NO idea what to do to 
+	fix this validation error, I've tried everything.*/
+	font: italic  normal bold 5em/1.5em Georgia, sans-serif;
 }
 /*=ul style*/
 ul, ol{
-	list-style-type: square;
 	opacity: .5;
 	font-size: 3em;
+	list-style-type: square;
 }
 li a, ol{
 	color: #fff;
+	/*Again, NO idea what to do
+	to fix this validation error.*/
+	background-color: rgba(130, 130, 130, .75);
 }
 /*=copy style*/
-body>p{
-	font-style: italics;
-	font-variant: small-caps;
-	font-weight: bolder;
-	font-size: 3em;
-	font-height: 1.6em;
-	font-family: Helvetica, sans-serif;
+body>p{	
+	font-size: 3em;	
+	line-height: 0%;
+	line-height: 2em;
+	word-spacing: 1px;
 	text-align: right;
-	text-decoration: underline;
-	line-height: 50%;
-	vertical-align: baseline;
-	color: rgba(000, 000, 000, .5);
-	text-shadow: 10px 10px 20px #fff;
-	letter-spacing: 50px;
-	word-spacing: 10px;
+	font-style: italic;
 	text-indent: 100px;
+	font-weight: bolder;
+	letter-spacing: 10px;
+	vertical-align: baseline;
+	font-variant: small-caps;
 	text-transform: uppercase;
+	text-decoration: underline;
+	text-shadow: 10px 10px 10px #fff;
+	font-family: Helvetica, sans-serif;
 }
