@@ -1,0 +1,125 @@
+/*
+colors
+#e9a117 yellow
+#225042026 red
+#137146215 purple 
+*/
+
+body{
+	width: 960px;
+	margin: 0px auto;
+	/*background: #e9a117 url("../img/yellownoise.jpg") no-repeat, transparent url() repeat;*/
+	/*background: #e9a117 url("../img/yellownoise.jpg") no-repeat;*/
+	background-image: url("../img/yellownoise.jpg");
+	font-size: 62.5%;	
+}
+#nav{
+	float: right;
+	width: 80%;
+	margin-bottom: 30px;
+	background-color: #fff;
+	font: normal normal 300 3em/1.5em "3dumb", sans-serif;
+}
+#nav li{
+	list-style: none;	
+	width: 25%;
+	height: 50px;
+}
+#nav li a{
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	color: #000;
+}
+h1{
+	float: left;
+	width: 20%;
+	background-color: #fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 3em;
+	font-family: cursiveedgar, serif;
+}
+#content{
+	clear: both;
+}
+p{
+	text-align: justify;
+	text-justify:inter-word;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+#content>*{
+	float: right;
+	width: 600px;
+	font: normal normal 300 1.5em/1.5em "Helvetica Neue", sans-serif;
+}
+#gallery{
+	float: left;
+	width: 320px;
+	margin-top: -507px;
+	background-color: rgba(000, 000, 000, .30);
+}
+#gallery img{
+	width: 220px;
+	display: block;
+	margin: 0px 50px;
+	margin-bottom: 30px;
+}
+#gallery ul li{
+	width: 320px;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 30px;
+	font: normal normal 100 1.5em/1.5em "2dumb", serif;
+}
+#content h2, #content h3{
+	font: normal normal 100 3em/1.5em "2dumb", serif;
+}
+
+/*#content ul.csv li {
+	text-transform: capitalize;
+}
+
+#content ul.csv li:after {
+	content: ", ";
+	margin-right: 3px;
+	display: inline-block;
+}
+
+#content ul.csv li:last-child:before {
+	content: "and the ";
+	margin-right: 3px;
+	display: inline-block;
+}
+
+#content ul.csv li:last-child:after {
+	content: ".";
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
