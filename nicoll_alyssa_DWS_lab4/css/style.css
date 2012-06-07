@@ -27,22 +27,37 @@ header section h1 span{
 }
 header section h1 span#tron{
 	margin-right: -49px;
-	margin-top: -33px;
 	font-size: 1.4em;
-	margin-top: -40px;
+	margin-top: -51px;
 }
 header section h1 span#gaming{
 	margin-right: 30px;
+	margin-top: -104px;
 	font-size: 1.8em;
-	line-height: .5em;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aadee9), to(#46c3d5));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	z-index: 30;
 }
 header section h1 span#products{
-	margin-right: 59px;
-	margin-top: -3px;
+	margin-right: 3px;
+	margin-top: -69px;
 	font-size: 1.3em;
+	background: -webkit-gradient(linear, left top, left bottom, from(#46c3d5), to(#aadee9));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	z-index: -50;
 }
-header section h1 span#by{}
-header section h1 span#razer{}
+header section h1 span#by{
+	margin-right: 70px;
+	margin-top: -39px;
+	font-size: .6em;
+}
+header section h1 span#razer{
+	margin-right: -167px;
+	margin-top: -40px;
+	font-size: .6em;
+}
 
 header section nav{
 	width: 100%;
@@ -66,7 +81,7 @@ header img{
 	top: 100px;
 	left: 50%;
 	width: 60%;
-	z-index: -1;
+	z-index: -100;
 	clear: both;
 	position: fixed;
 	-webkit-transform:rotate(-10deg);
