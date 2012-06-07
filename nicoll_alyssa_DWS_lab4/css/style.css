@@ -2,7 +2,8 @@
 div.wrapper{
 	width: 960px;
 	margin: 0px auto;
-	postion: relative;
+	position: relative;
+	overflow: hidden;
 }
 /*HEADER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 body{
@@ -11,21 +12,35 @@ body{
 	background-color: #000;
 }
 header section h1{
-	width: 70%;
-	float: left;
 	color: #fff;
 	padding: 0px;
-	top: 300px;
-	left: 570px;
-	right: 800px;
+	top: 96px;
+	left: 218px;
+	right: 436px;
 	margin: 0px;
 	position: absolute;
-	background-color: silver;
-	font: 5em normal bold Helvetica, sanserif;
+/*	background-color: rgba(139,134,130,.5);*/
+	font: 11em normal bold 'Economica', sans-serif;
 }
-header section h1 span#tron{}
-header section h1 span#gaming{}
-header section h1 span#products{}
+header section h1 span{
+	float:right;
+}
+header section h1 span#tron{
+	margin-right: -49px;
+	margin-top: -33px;
+	font-size: 1.4em;
+	margin-top: -40px;
+}
+header section h1 span#gaming{
+	margin-right: 30px;
+	font-size: 1.8em;
+	line-height: .5em;
+}
+header section h1 span#products{
+	margin-right: 59px;
+	margin-top: -3px;
+	font-size: 1.3em;
+}
 header section h1 span#by{}
 header section h1 span#razer{}
 
