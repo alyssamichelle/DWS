@@ -1,45 +1,61 @@
-/*Header|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-#wrapper{
-	width: 100%;
-	margin: 0%;
+/*GLOBAL|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+div.wrapper{
+	width: 960px;
+	margin: 0px auto;
+	postion: relative;
 }
+/*HEADER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 body{
 	margin: 0px;
-	background-color: #000;
 	font-size: 62.5%;
-}
-header section img{
-	width: 80%;
-	position: fixed;
-	z-index: -1;
-	margin-top: 100px;
+	background-color: #000;
 }
 header section h1{
-	color: #fff;
-	font: 5em normal bold Helvetica, sanserif;
-	float: left;
 	width: 70%;
-	margin: 100px 0px 0px;
+	float: left;
+	color: #fff;
 	padding: 0px;
+	top: 300px;
+	left: 570px;
+	right: 800px;
+	margin: 0px;
+	position: absolute;
+	background-color: silver;
+	font: 5em normal bold Helvetica, sanserif;
 }
+header section h1 span#tron{}
+header section h1 span#gaming{}
+header section h1 span#products{}
+header section h1 span#by{}
+header section h1 span#razer{}
+
 header section nav{
-	width: 30%;
-	float: right;
-	margin: 20px 0px 300px;
-}
-header section nav ul{
+	width: 100%;
 	overflow: hidden;
+	margin: 20px 0px 400px;
 	border-bottom: 5px solid #fff;
 }
+header section nav ul{
+	float: right;
+}
 header section nav ul li{
-		float: right;
-		margin-right: 20px;
+	float: right;
+	margin-right: 20px;
 }
 header section nav ul li a{
-		color: #fff;
-		text-decoration: none;
-		font: 2em normal bold Helvetica, sanserif;
-	}
+	color: #fff;
+	text-decoration: none;
+	font: 2em normal bold Helvetica, sanserif;
+}
+header img{
+	top: 100px;
+	left: 50%;
+	width: 60%;
+	z-index: -1;
+	clear: both;
+	position: fixed;
+	-webkit-transform:rotate(-10deg);
+}
 
 
 
