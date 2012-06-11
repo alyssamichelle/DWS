@@ -185,8 +185,8 @@ header img{
 /*CTA|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 section#cta h1{
-	font-size: 2em;
-	font: 3em normal bold Helvetica, sanserif;
+	margin: 0px;
+	font: 3em normal normal Helvetica, sanserif;
 	margin: 0px;
 	color: #fff;
 	top: 0px;
@@ -271,40 +271,49 @@ section#cta a.button:hover{
 /*OVERVIEW|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 section#overview h2{
-	font: 2em normal bold Helvetica, sanserif;
+	margin: 0px;
+	font: 3em normal normal Helvetica, sanserif;
 }
 
-section#overview p{
+section#overview p, dl{
 	font: 2em normal bold Helvetica, sanserif;
 }
-
-section#overview dl{
-	font: 2em normal bold Helvetica, sanserif;
-}
-
 
 /*GALLERY|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+section#gallery{
+	background-color: rgba(0,0,0,.5);
+}
 section#gallery h2{
 	color: #fff;
+	margin: 0px;
 	font: 3em normal normal Helvetica, sanserif;
 }
 
 section#gallery ul li{
-	width: 300px;
 	float: left;
+	width: 250px;
+	height: 200px;
+	margin: 0px 10px 10px;
 	list-style-type: none;
-	text-align: center;
+	border: 1px solid #fff;
+	background-color: rgba(0,0,0,.65);
 }
 
 section#gallery ul li a{
 	color: #fff;
+	float: left;
+	margin: 20px auto;
+	text-align: center;
 	text-decoration: none;
 	font: 2em normal normal Helvetica, sanserif;
 }
 
+section#gallery ul li a img{
+	width: 230px;
+	margin: 20px auto;
+}
 
-	/*margin: 0px;*/
 
 /*TECHNICAL SPECS|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
@@ -313,6 +322,11 @@ section#gallery ul li a{
 	width: 500px;
 	margin-bottom: 300px;
 	font: 1.5em normal bold Helvetica, sanserif;
+}
+
+aside#technicalspecs h2{
+	margin: 0px;
+	font: 3em normal normal Helvetica, sanserif;
 }
 
 /*FOOTER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
