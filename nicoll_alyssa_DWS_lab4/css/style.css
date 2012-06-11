@@ -39,7 +39,24 @@ section#cta, section#overview, section#gallery{
 body{
 	margin: 0px;
 	font-size: 62.5%;
-	background-color: #000;
+
+	/* fallback/image non-cover color */
+	color: #000;
+
+ 	/* fallback image */
+	background: #000 url(../images/bg_gradient.png) repeat center center fixed;
+
+	/*subtle pattern*/
+	background-image: , url(../images/square_bg.png) repeat center center fixed;
+
+ 	/* Safari 4+, Chrome 1-9 */
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#c7c7c7));
+
+ 	/* Safari 5.1+, Mobile Safari, Chrome 10+ */
+ 	background-image: -webkit-linear-gradient(top, #000, #c7c7c7); 
+
+ 	/* Firefox 3.6+ */
+ 	background-image: -moz-linear-gradient(top, #000, #c7c7c7);
 }
 
 /*HEADER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -172,6 +189,8 @@ section#cta h1{
 	font: 3em normal bold Helvetica, sanserif;
 	margin: 0px;
 	color: #fff;
+	top: 0px;
+	position: absolute;
 	padding: 10px 0px 10px;
 }
 
@@ -218,6 +237,8 @@ section#cta a.button{
 	display: block;
 	color: #aadee9;
 	text-align: center;
+	/*why do i need to apply -59px, what is pushing this down? */
+	margin-top: -59px;
 	margin-bottom: 20px;
 	text-decoration: none;
 	outline: 3px solid #6eeff7;
@@ -261,27 +282,37 @@ section#overview dl{
 	font: 2em normal bold Helvetica, sanserif;
 }
 
-section#overview dt{
-
-}
-
-section#overview dl{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*GALLERY|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+section#gallery h2{
+	color: #fff;
+	font: 3em normal normal Helvetica, sanserif;
+}
+
+section#gallery ul li{
+	width: 300px;
+	float: left;
+	list-style-type: none;
+	text-align: center;
+}
+
+section#gallery ul li a{
+	color: #fff;
+	text-decoration: none;
+	font: 2em normal normal Helvetica, sanserif;
+}
+
+
+	/*margin: 0px;*/
+
 /*TECHNICAL SPECS|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+ aside#technicalspecs{	
+	color: #fff;
+	width: 500px;
+	margin-bottom: 300px;
+	font: 1.5em normal bold Helvetica, sanserif;
+}
+
 /*FOOTER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
