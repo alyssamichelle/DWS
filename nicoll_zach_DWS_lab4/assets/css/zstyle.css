@@ -1,0 +1,188 @@
+/* GLOBAL */
+/* ------------------------------------------------------------------------- */
+@font-face {
+  font-family: tron;
+  src: url('../fonts/tr2n.ttf');
+}
+
+body {
+  margin: 0px;
+  font: 62.5% Helvetica, Arial, sans-serif;
+  background: #000 url('../images/bg_grid.png') repeat fixed;
+}
+
+section#cta, section#overview {
+  z-index: 2;
+  width: 100%;
+  clear: both;
+  color: white;
+  font-size: 2em;
+  padding: 20px 0px;
+  margin-bottom: 100px;
+  outline: 2px solid #6ee7ff;
+  background: rgba(0,0,0,0.5);
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  box-shadow: #6ee7ff 0px -1px 10px, #6ee7ff 0px 1px 10px;
+}
+
+section#cta p, section#overview p, section#cta dl, section#overview dl {
+  margin: 0px;
+  line-height: 1.5em;
+}
+
+div.wrapper {
+  width: 960px;
+  margin: 0px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+div.columns {
+  -moz-column-count: 3;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 30px;
+}
+
+div.columns p { text-align: justify; }
+
+/* HEADER */
+/* ------------------------------------------------------------------------- */
+header section h1 {
+  top: 96px;
+  margin: 0px;
+  left: 218px;
+  padding: 0px;
+  right: 436px;
+  color: white;
+  position: absolute;
+  font: 11em monospace;
+}
+
+header section h1 span { float: right; }
+header section h1 span#tron {
+  color: #6ee7ff;
+  margin: -11px 17px 10px 0;
+  font: 1.5em normal normal "tron";
+  text-shadow: 0px 0px 32px #46c3d5;
+}
+
+header section h1 span#gaming {
+  font-size: 1.4em;
+  margin: -74px 30px 0 0;
+}
+
+header section h1 span#products {
+  font-size: 1.2em;
+  margin: -49px 3px 0 0;
+}
+
+header section h1 span#by {
+  font-size: .6em;
+  margin: -29px 120px 0 0;
+}
+
+header section h1 span#razer {
+  font-size: .6em;
+  margin: -29px -237px 0 0;
+}
+
+header section img {
+  top: 100px;
+  left: 50%;
+  width: 60%;
+  clear: both;
+  z-index: -100;
+  position: fixed;
+  -webkit-transform: rotate(-10deg);
+}
+
+/* NAVIGATION */
+/* ------------------------------------------------------------------------- */
+header nav {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0px 500px;
+}
+
+header nav hr {
+  clear: right;
+  background-color: white;
+  box-shadow: white 0px 0px 2px;
+}
+
+header nav ul { float: right; }
+header nav ul li {
+  float: right;
+  margin-left: 20px;
+}
+
+header nav il li a {
+  height: 19px;
+  display: block;
+  color: transparent;
+  background-image: url(../images/nav_sprite.png);
+}
+
+header nav il li a#support:hover { background-position: 0px -50px; }
+header nav il li a#support:active { background-position: 0px -100px; }
+header nav il li a#support {
+  width: 79px;
+  background-position: 0px 0px;
+}
+
+header nav il li a#shop:hover { background-position: -100px -50px; }
+header nav il li a#shop:active { background-position: -100px -100px; }
+header nav il li a#shop {
+  width: 50px;
+  background-position: -100px 0px;
+}
+
+header nav il li a#products:hover { background-position: -200px -50px; }
+header nav il li a#products:active { background-position: -200px -100px; }
+header nav il li a#products {
+  width: 87px;
+  background-position: -200px 0px;
+}
+
+/* CALL TO ACTION */
+/* ------------------------------------------------------------------------- */
+section#cta h1 {
+  margin: 0px;
+}
+
+section#cta div img {
+  width: 960px;
+  margin: 20px 0px;
+}
+
+section#cta a {
+  height: 19px;
+  width: 273px;
+  display: block;
+}
+
+/* OVERVIEW */
+/* ------------------------------------------------------------------------- */
+section#overview {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GALLERY|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*TECHNICAL SPECS|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*FOOTER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/

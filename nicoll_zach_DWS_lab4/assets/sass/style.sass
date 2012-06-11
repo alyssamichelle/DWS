@@ -1,0 +1,171 @@
+// GLOBAL
+// ----------------------------------------------------------------------------
+$blue: #6ee7ff
+
+@font-face 
+  font-family: tron
+  src: url('../fonts/tr2n.ttf')
+
+body
+  margin: 0px
+  font: 62.5% Helvetica, Arial, sans-serif
+  background: #000 url('../images/bg_grid.png') repeat fixed
+
+section#cta, section#overview
+  z-index: 2
+  width: 100%
+  clear: both
+  color: white
+  font-size: 2em
+  padding: 20px 0px
+  margin-bottom: 100px
+  outline: 2px solid $blue
+  background: rgba(0,0,0,0.5)
+  border-top: 3px solid black
+  border-bottom: 3px solid black
+  box-shadow: $blue 0px -1px 10px, $blue 0px 1px 10px
+
+  p, dl
+    margin: 0px
+    line-height: 1.5em
+
+div.wrapper
+  width: 960px
+  margin: 0px auto
+  overflow: hidden
+  position: relative
+
+div.columns
+  -moz-column-count: 3
+  -moz-column-gap: 30px
+  -webkit-column-count: 3
+  -webkit-column-gap: 30px
+
+  p
+    text-align: justify
+
+
+// HEADER
+// ----------------------------------------------------------------------------
+header
+  section h1
+    top: 96px
+    margin: 0px
+    left: 218px
+    padding: 0px
+    right: 436px
+    color: white
+    position: absolute
+    font: 11em monospace
+
+    span
+      float: right
+      &#tron
+        color: $blue
+        margin: -11px 17px 10px 0
+        font: 1.5em normal normal "tron"
+        text-shadow: 0px 0px 32px #46c3d5
+      &#gaming
+        font-size: 1.4em
+        margin: -74px 30px 0 0
+      &#products
+        font-size: 1.2em
+        margin: -49px 3px 0 0
+      &#by
+        font-size: .6em
+        margin: -29px 120px 0 0
+      &#razer
+        font-size: .6em
+        margin: -29px -237px 0 0
+
+  img
+    top: 100px
+    left: 50%
+    width: 60%
+    z-index: -100
+    clear: both
+    position: fixed
+    -webkit-transform: rotate(-10deg)
+
+// NAVIGATION
+// ----------------------------------------------------------------------------
+header nav
+  width: 100%
+  overflow: hidden
+  margin: 20px 0px 500px
+
+  hr
+    clear: right
+    background-color: white
+    box-shadow: white 0px 0px 2px
+
+  ul
+    float: right
+
+    li
+      float: right
+      margin-left: 20px
+
+      a
+        height: 19px
+        display: block
+        color: transparent
+        background-image: url(../images/nav_sprite.png)
+        &#support
+          width: 79px
+          background-position: 0px 0px
+          &:hover
+            background-position: 0px -50px
+          &:active
+            background-position: 0px -100px
+        &#shop
+          width: 50px
+          background-position: -100px 0px
+          &:hover
+            background-position: -100px -50px
+          &:active
+            background-position: -100px -100px
+        &#products
+          width: 87px
+          background-position: -200px 0px
+          &:hover
+            background-position: -200px -50px
+          &:active
+            background-position: -200px -100px
+
+// CALL TO ACTION
+// ----------------------------------------------------------------------------
+section#cta
+  h1
+    margin: 0px
+
+  div img
+    width: 960px
+    margin: 20px 0px
+
+  a
+    height: 19px
+    width: 273px
+    display: block
+
+// OVERVIEW
+// ----------------------------------------------------------------------------
+section#overview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GALLERY|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*TECHNICAL SPECS|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*FOOTER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
