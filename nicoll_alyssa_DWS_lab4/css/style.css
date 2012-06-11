@@ -61,6 +61,9 @@ body{
 
 /*HEADER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+header:nth-child(1){
+	margin-bottom: 500px;
+}
 header section h1{
 	color: #fff;
 	padding: 0px;
@@ -113,7 +116,7 @@ header section h1 span#razer{
 header section nav{
 	width: 100%;
 	overflow: hidden;
-	margin: 20px 0px 500px;
+	margin: 20px 0px 200px;
 	border-bottom: 5px solid #fff;
 }
 
@@ -186,7 +189,7 @@ header img{
 
 section#cta h1{
 	margin: 0px;
-	font: 3em normal normal Helvetica, sanserif;
+	font: 3em normal normal "Economica", sanserif;
 	margin: 0px;
 	color: #fff;
 	top: 0px;
@@ -237,8 +240,8 @@ section#cta a.button{
 	display: block;
 	color: #aadee9;
 	text-align: center;
-	/*why do i need to apply -59px, what is pushing this down? */
-	margin-top: -59px;
+	/*why do i need to apply -39px, what is pushing this down? */
+	margin-top: -39px;
 	margin-bottom: 20px;
 	text-decoration: none;
 	outline: 3px solid #6eeff7;
@@ -272,7 +275,7 @@ section#cta a.button:hover{
 
 section#overview h2{
 	margin: 0px;
-	font: 3em normal normal Helvetica, sanserif;
+	font: 3em normal normal "Economica", sanserif;
 }
 
 section#overview p, dl{
@@ -287,17 +290,28 @@ section#gallery{
 section#gallery h2{
 	color: #fff;
 	margin: 0px;
-	font: 3em normal normal Helvetica, sanserif;
+	font: 3em normal normal "Economica", sanserif;
+}
+
+section#gallery nav{
+	margin: 0px;
+	padding: 0px;
+
+}
+section#gallery ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
 }
 
 section#gallery ul li{
 	float: left;
 	width: 250px;
 	height: 200px;
-	margin: 0px 10px 10px;
+	margin: 0px 0px 10px 10px;
 	list-style-type: none;
-	border: 1px solid #fff;
-	background-color: rgba(0,0,0,.65);
+	border: 1px solid #1a;
+	background-color: rgba(61,61,61,.65);
 }
 
 section#gallery ul li a{
@@ -320,13 +334,13 @@ section#gallery ul li a img{
  aside#technicalspecs{	
 	color: #fff;
 	width: 500px;
-	margin-bottom: 300px;
+	margin-bottom: 200px;
 	font: 1.5em normal bold Helvetica, sanserif;
 }
 
 aside#technicalspecs h2{
 	margin: 0px;
-	font: 3em normal normal Helvetica, sanserif;
+	font: 3em normal normal "Economica", sanserif;
 }
 
 /*FOOTER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
