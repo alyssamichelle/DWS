@@ -1,11 +1,11 @@
-
+/*Style.css for tron project | DWS | Kevin Imhoff*/
 /*GLOBAL|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 div.wrapper{
 	width: 960px;
+	overflow: hidden;
 	margin: 0px auto;
 	position: relative;
-	overflow: hidden;
 }
 
 @font-face {
@@ -20,7 +20,7 @@ div.wrapper{
 	-moz-column-gap: 30px;
 	-webkit-column-count: 2;
 	-webkit-column-gap: 30px;
-	font: 1.5em normal bold Helvetica, sanserif;
+	font: 1.5em normal bold Helvetica, san-serif;
 }
 
 section#cta, section#overview, section#gallery{	
@@ -32,8 +32,8 @@ section#cta, section#overview, section#gallery{
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 	background-color: rgba(0,0,0,.5);
-	-webkit-box-shadow: 0px -1px 10px #6eeff7,0px 1px 10px #6eeff7;
 	-moz-box-shadow: 0px -1px 10px #6eeff7,0px 1px 10px #6eeff7;
+	-webkit-box-shadow: 0px -1px 10px #6eeff7,0px 1px 10px #6eeff7;
 }
 
 body{
@@ -64,13 +64,14 @@ body{
 header:nth-child(1){
 	margin-bottom: 500px;
 }
+
 header section h1{
-	color: #fff;
-	padding: 0px;
 	top: 96px;
-	left: 218px;
-	right: 436px;
+	color: #fff;
 	margin: 0px;
+	left: 218px;
+	padding: 0px;
+	right: 436px;
 	position: absolute;
 	font: 11em normal bold 'Economica', sans-serif;
 }
@@ -80,42 +81,43 @@ header section h1 span{
 }
 
 header section h1 span#tron{
-	margin-right: 17px;
-	margin-top: -11px;
 	color: #aadee9;
+	margin-top: -11px;
+	margin-right: 17px;
 	font: 1.5em normal normal "tr2n";
 	text-shadow: 0px 0px 32px #46c3d5;
 }
 
 header section h1 span#gaming{
-	margin-right: 30px;
-	margin-top: -74px;
 	font-size: 1.8em;
+	margin-top: -74px;
+	margin-right: 30px;
 }
 
 header section h1 span#products{
+	font-size: 1.3em;
 	margin-right: 3px;
 	margin-top: -69px;
-	font-size: 1.3em;
-  }
+}
 
 header section h1 span#by{
-	margin-right: 70px;
-	margin-top: -39px;
 	font-size: .6em;
+	margin-top: -39px;
+	margin-right: 70px;
 }
 
 header section h1 span#razer{
-	margin-right: -167px;
-	margin-top: -40px;
 	font-size: .6em;
+	margin-top: -40px;
+	margin-right: -167px;
 }
 
-/*margin-bottom pushing cta down*/
 
 header section nav{
 	width: 100%;
 	overflow: hidden;
+	
+	/*margin-bottom pushing cta down*/
 	margin: 20px 0px 200px;
 	border-bottom: 5px solid #fff;
 }
@@ -176,11 +178,11 @@ header section nav ul li a#products:active{
 }
 
 header img{
-	top: 100px;
 	left: 50%;
 	width: 60%;
-	z-index: -200;
+	top: 100px;
 	clear: both;
+	z-index: -200;
 	position: fixed;
 	-webkit-transform:rotate(-10deg);
 }
@@ -188,20 +190,20 @@ header img{
 /*CTA|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 section#cta h1{
+	top: 0px;
 	margin: 0px;
-	font: 3em normal normal "Economica", sanserif;
 	margin: 0px;
 	color: #fff;
-	top: 0px;
 	position: absolute;
 	padding: 10px 0px 10px;
+	font: 3em normal normal "Economica", san-serif;
 }
 
 section#cta img{
-	width: 960px;
-	margin: 0px auto;
-	z-index: -110;
 	top: 0px;
+	width: 960px;
+	z-index: -110;
+	margin: 0px auto;
 	position: absolute;
 }
 
@@ -213,9 +215,9 @@ section#cta div.columns{
 section#cta div.columns p{
 /*	text-align: justify;*/
 	color: #fff;
+	margin: 0px;
 	z-index: 110;
 	font-size: 1.5em;
-	margin: 0px;
 }
 
 section#cta a{
@@ -225,8 +227,8 @@ section#cta a{
 }
 
 div.wrapper>div{
-	position: relative;
 	padding-top: 70px;
+	position: relative;
 }
 
 div#buttonwrapper{
@@ -240,6 +242,7 @@ section#cta a.button{
 	display: block;
 	color: #aadee9;
 	text-align: center;
+	
 	/*why do i need to apply -39px, what is pushing this down? */
 	margin-top: -39px;
 	margin-bottom: 20px;
@@ -275,11 +278,11 @@ section#cta a.button:hover{
 
 section#overview h2{
 	margin: 0px;
-	font: 3em normal normal "Economica", sanserif;
+	font: 3em normal normal "Economica", san-serif;
 }
 
 section#overview p, dl,{
-	font: 2em normal bold Helvetica, sanserif;
+	font: 2em normal bold Helvetica, san-serif;
 }
 
 /*GALLERY|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -287,10 +290,11 @@ section#overview p, dl,{
 section#gallery{
 	background-color: rgba(0,0,0,.5);
 }
+
 section#gallery h2{
 	color: #fff;
 	margin-bottom: 0px 0px 10px;
-	font: 3em normal normal "Economica", sanserif;
+	font: 3em normal normal "Economica", san-serif;
 }
 
 section#gallery nav{
@@ -298,6 +302,7 @@ section#gallery nav{
 	padding: 0px;
 
 }
+
 section#gallery ul{
 	width: 960px;
 	padding: 0px;
@@ -308,13 +313,15 @@ section#gallery ul li{
 	float: left;
 	width: 250px;
 	height: 200px;
-	margin: 0px 105px 10px 0px;
 	list-style-type: none;
+	margin: 0px 105px 10px 0px;
 	background-color: rgba(61,61,61,.65);
 }
+
 section#gallery ul li:nth-child(3n){
 	margin-right: 0px;
 }
+
 section#gallery ul li a{
 	color: #fff;
 	float: left;
@@ -328,7 +335,6 @@ section#gallery ul li a img{
 	width: 230px;
 	margin: 20px auto;
 }
-
 
 /*TECHNICAL SPECS|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
@@ -349,5 +355,5 @@ footer{
 	color: #3d;
 	width: 500px;
 	margin: 0px auto;
-	font: 1.5em normal bold Helvetica, sanserif;
+	font: 1.5em normal bold Helvetica, san-serif;
 }
