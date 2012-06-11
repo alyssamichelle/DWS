@@ -47,7 +47,7 @@ body{
 	background: #000 url(../images/bg_gradient.png) repeat center center fixed;
 
 	/*subtle pattern*/
-	background-image: , url(../images/square_bg.png) repeat center center fixed;
+	background-image: url(../images/square_bg.png) repeat center center fixed;
 
  	/* Safari 4+, Chrome 1-9 */
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#c7c7c7));
