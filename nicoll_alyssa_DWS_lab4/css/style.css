@@ -289,7 +289,7 @@ section#gallery{
 }
 section#gallery h2{
 	color: #fff;
-	margin: 0px;
+	margin-bottom: 0px 0px 10px;
 	font: 3em normal normal "Economica", sanserif;
 }
 
@@ -299,7 +299,8 @@ section#gallery nav{
 
 }
 section#gallery ul{
-	margin: 0px;
+	width: 960px;
+	margin: 0px auto;
 	padding: 0px;
 	overflow: hidden;
 }
@@ -308,9 +309,8 @@ section#gallery ul li{
 	float: left;
 	width: 250px;
 	height: 200px;
-	margin: 0px 0px 10px 10px;
+	margin: 0px 10px 10px 0px;
 	list-style-type: none;
-	border: 1px solid #1a;
 	background-color: rgba(61,61,61,.65);
 }
 
@@ -344,3 +344,9 @@ aside#technicalspecs h2{
 }
 
 /*FOOTER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+footer{
+	color: #3d;
+	width: 500px;
+	margin: 0px auto;
+	font: 1.5em normal bold Helvetica, sanserif;
+}
