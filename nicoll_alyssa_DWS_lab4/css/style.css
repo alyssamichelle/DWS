@@ -278,7 +278,7 @@ section#overview h2{
 	font: 3em normal normal "Economica", sanserif;
 }
 
-section#overview p, dl{
+section#overview p, dl,{
 	font: 2em normal bold Helvetica, sanserif;
 }
 
@@ -300,7 +300,6 @@ section#gallery nav{
 }
 section#gallery ul{
 	width: 960px;
-	margin: 0px auto;
 	padding: 0px;
 	overflow: hidden;
 }
@@ -309,11 +308,13 @@ section#gallery ul li{
 	float: left;
 	width: 250px;
 	height: 200px;
-	margin: 0px 10px 10px 0px;
+	margin: 0px 105px 10px 0px;
 	list-style-type: none;
 	background-color: rgba(61,61,61,.65);
 }
-
+section#gallery ul li:nth-child(3n){
+	margin-right: 0px;
+}
 section#gallery ul li a{
 	color: #fff;
 	float: left;
