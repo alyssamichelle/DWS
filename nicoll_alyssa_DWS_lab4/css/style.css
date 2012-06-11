@@ -321,7 +321,7 @@ section#gallery ul li a{
 	margin: 20px auto;
 	text-align: center;
 	text-decoration: none;
-	font: 2em normal normal Helvetica, sanserif;
+	font: 2em normal normal "Economica", san-serif;
 }
 
 section#gallery ul li a img{
@@ -336,12 +336,12 @@ section#gallery ul li a img{
 	color: #fff;
 	width: 500px;
 	margin-bottom: 200px;
-	font: 1.5em normal bold Helvetica, sanserif;
+	font: 1.5em normal bold Helvetica, san-serif;
 }
 
 aside#technicalspecs h2{
 	margin: 0px;
-	font: 3em normal normal "Economica", sanserif;
+	font: 3em normal normal "Economica", san-serif;
 }
 
 /*FOOTER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
