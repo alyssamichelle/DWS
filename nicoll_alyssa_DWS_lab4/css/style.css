@@ -10,7 +10,7 @@ div.wrapper{
 
 @font-face {
 	font-family: tr2n;
-	src: url('tr2n.ttf');
+	src: url('Tr2n.ttf');
 }
 
 /*calling out my columns class in cta & overview section---------*/
@@ -20,7 +20,7 @@ div.wrapper{
 	-moz-column-gap: 30px;
 	-webkit-column-count: 2;
 	-webkit-column-gap: 30px;
-	font: 1.5em normal bold Helvetica, san-serif;
+	font:  normal bold 1.5em Helvetica, san-serif;
 }
 
 section#cta, section#overview, section#gallery{	
@@ -28,7 +28,6 @@ section#cta, section#overview, section#gallery{
 	clear: both;
 	color: #fff;
 	margin-bottom: 300px;
-	outline: 3px solid #6eeff7;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 	background-color: rgba(0,0,0,.5);
@@ -73,7 +72,7 @@ header section h1{
 	padding: 0px;
 	right: 436px;
 	position: absolute;
-	font: 11em normal bold 'Economica', sans-serif;
+	font:  normal bold 11em 'Economica', sans-serif;
 }
 
 header section h1 span{
@@ -84,7 +83,7 @@ header section h1 span#tron{
 	color: #aadee9;
 	margin-top: -11px;
 	margin-right: 17px;
-	font: 1.5em normal normal "tr2n";
+	font:  normal normal 1.5em "tr2n";
 	text-shadow: 0px 0px 32px #46c3d5;
 }
 
@@ -196,7 +195,7 @@ section#cta h1{
 	color: #fff;
 	position: absolute;
 	padding: 10px 0px 10px;
-	font: 3em normal normal "Economica", san-serif;
+	font:  normal normal 3em "Economica", san-serif;
 }
 
 section#cta img{
@@ -247,9 +246,8 @@ section#cta a.button{
 	margin-top: -39px;
 	margin-bottom: 20px;
 	text-decoration: none;
-	outline: 3px solid #6eeff7;
 	border-top: 3px solid black;
-	font: 5em normal normal "tr2n";
+	font:  normal normal 5em "tr2n";
 	border-bottom: 3px solid black;
 	background-color: rgba(0,0,0,.5);
 	text-shadow: 0px 0px 32px #46c3d5;
@@ -263,9 +261,8 @@ section#cta a.button:hover{
 	text-align: center;
 	margin-bottom: 20px;
 	text-decoration: none;
-	outline: 3px solid #fff;
 	border-top: 3px solid black;
-	font: 5em normal normal "tr2n";
+	font:  normal normal 5em "tr2n";
 	border-bottom: 3px solid black;
 	background-color: rgba(0,0,0,.5);
 	text-shadow: 0px 0px 32px #6eeff7;
@@ -328,7 +325,7 @@ section#gallery ul li a{
 	margin: 20px auto;
 	text-align: center;
 	text-decoration: none;
-	font: 2em normal normal "Economica", san-serif;
+	font:  normal normal 2em "Economica", san-serif;
 }
 
 section#gallery ul li a img{
@@ -342,12 +339,12 @@ section#gallery ul li a img{
 	color: #fff;
 	width: 500px;
 	margin-bottom: 200px;
-	font: 1.5em normal bold Helvetica, san-serif;
+	font:  normal bold 1.5em Helvetica, san-serif;
 }
 
 aside#technicalspecs h2{
 	margin: 0px;
-	font: 3em normal normal "Economica", san-serif;
+	font:  normal normal 3em "Economica", san-serif;
 }
 
 /*FOOTER|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -355,5 +352,5 @@ footer{
 	color: #3d;
 	width: 500px;
 	margin: 0px auto;
-	font: 1.5em normal bold Helvetica, san-serif;
+	font: normal bold 1.5em Helvetica, san-serif;
 }

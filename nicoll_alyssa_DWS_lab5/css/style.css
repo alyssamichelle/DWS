@@ -1,0 +1,164 @@
+/*
+colors
+#e9a117 yellow
+#e12a1a 225042026 red
+#137146215 purple 
+*/
+/*GLOBAL STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+h2{
+	font: normal normal 300 3em/1.5em "2dumb", sans-serif;
+}
+/*NAV STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+h1{
+	height: 50px;
+	line-height: 50px;
+	margin: 90px 0px 30px;
+	text-align: center;
+	font-size: 13em;
+	font-family: cursiveedgar, serif;
+}
+#nav{
+	margin-bottom: 30px;
+	border-top: 2px solid #000;
+	font: normal normal 300 3em/1.5em "3dumb", sans-serif;
+}
+#nav ul{
+	overflow: hidden;
+}
+#nav li{
+	float: left;
+	list-style: none;	
+	width: 25%;
+	height: 50px;
+}
+#nav li a{
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	color: #000;
+}
+#nav li a:hover {
+	color: #e12a1a;
+}
+/*BODY STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+body{
+	max-width: 960px;
+	margin: 0px auto;
+	background-image: url("../img/yellownoise.jpg");
+	font-size: 62.5%;	
+}
+
+/*MAIN CONTENT STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+#maincontentwrapper{
+	width: 66.66667%; /*640px/960px*/
+	padding-right: 1.5625%; /*10px/640px*/
+	border-right: 3px solid #000;
+	float: left;
+}
+p{
+	text-align: justify;
+	font: normal normal 300 1.5em/1.5em "Helvetica Neue", sans-serif;
+}
+
+/*SEE ALSO STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+#childmaincontentwrapper{
+}
+div#seealso h3{
+	font: normal normal 100 2em/1.5em "2dumb", serif;
+}
+#seealso{
+	float: left;
+	width: 50%
+	clear: left;
+	margin-top: 1.0416667%; /*10px/960px*/
+	font: normal normal 100 1.8em/1.5em "2dumb", serif;
+	padding: 1.0416667%; /*10px/960px*/
+}
+div#seealso ul li{
+	list-style-position: inside;
+	list-style-image: url("../img/pawprint.png");
+}
+div#seealso ul li:hover{
+	color: #fff;
+}
+div#seealso ul:hover{
+	color: #fff;
+}
+/*p3 STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+#p3{
+ width: 100%;
+ margin-bottom: 1.5625%; /*10px/640px*/
+}
+/*colours STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+div#colours{
+	clear: both;
+	margin-bottom: 2.0833333%; /*10px/960px*/
+}
+/*GALLERY STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+div#gallery{
+	width: 100%;
+	overflow: hidden;
+	border-top: 3px solid #000;
+	padding-top: 20px;
+}
+
+li#gallerytitle{
+	margin-top: 1.5625%; /*5px/320px*/ 
+	font: normal normal 100 1.5em/1.5em "2dumb", serif;
+}
+#gallery ul{
+	overflow: hidden;
+	background-color: rgb(203,139,14);
+	box-shadow: rgba(0,0,0,.5) 1px 1px 5px;
+}
+#gallery ul li{
+	width: 33%; /*320px/960px*/
+	float: left;
+	list-style: none;
+}
+.clearleft{
+	clear: left;
+}
+#gallery img{
+	width: 100%;
+	display: block;
+	margin: 0px 10px;
+	margin-bottom: 30px;
+}
+/*secondarycontent STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+#secondarycontent{
+	width: 30%;
+	float: right;
+}
+/*FOOTER STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+footer{
+	clear: both;
+	width: 960px;
+	margin: 20px auto;
+	background-color: rgba(000, 000, 000, .30);
+	font: normal normal 100 1em/1.5em "2dumb", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
