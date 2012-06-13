@@ -18,7 +18,7 @@ h1{
 	font-family: cursiveedgar, serif;
 }
 #nav{
-	margin-bottom: 30px;
+	margin-bottom: 3.125%; /*30px/960px*/
 	border-top: 2px solid #000;
 	font: normal normal 300 3em/1.5em "3dumb", sans-serif;
 }
@@ -140,7 +140,38 @@ footer{
 	font: normal normal 100 1em/1.5em "2dumb", serif;
 }
 
+/*MEDIA QUERIES STYLE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
+@media screen and (max-width:480px){
+	
+	div#seealso, div#secondarycontent{ 
+		float: none;
+		width: 100%;
+	}
+
+	body>h1{
+		margin-bottom: -16px;
+	}
+	
+	div#nav{
+		font: 2em/1.5em "3dumb", sans-serif;
+
+	}
+
+	div#nav, div#maincontentwrapper, div#secondarycontent{
+		width: 90%;
+		border: none;
+		margin: 0% 5%;
+	}
+
+	div#secondarycontent h2{
+		font-size: 2em;
+	}
+	div#sinbad_img{
+		width: 70%;
+		margin: 0% 15%;
+	}
+}
 
 
 
