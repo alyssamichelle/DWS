@@ -4,16 +4,16 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <link type="text/css" rel="stylesheet" href="css/normalize.css" />
 	<title>Fancy Form Design: Edit Profile</title>
 		
 </head>
 <body id="edit-profile">
 	<!-- Container -->	
 	<div id="container">
-    <div id="container-inner">
 
   		<h1>Edit Profile</h1>
-  		<form action="#" method="get">
+  		<form id="form" action="#" method="get">
   			<fieldset>
   				
   				<!-- first name -->
@@ -23,7 +23,7 @@
   				
   				<!-- last name -->
   				<div>
-            <input type="text" name="lastname" value="" id="lastname" placeholder="Last Name" />
+            <input type="text" name="lastname" value="" id="lastname" placeholder="Last Name" autofocus />
   				</div>
 
           <!-- photo -->
@@ -249,8 +249,7 @@
     			</div>
   			</fieldset>
   		</form>
-  			
-  	</div>
+
   </div>	<!-- /Container -->
 	
 </body>

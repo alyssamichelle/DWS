@@ -7,19 +7,23 @@ body{
 
 div#container{
 	font: normal normal 100 3em 'Helvetica Neue', san-serif;
+	width: 100%;
+	margin: 0% 20%;
 }
+
 input{
-	width: -webkit-calc(100% - 20px);
-	width: -moz-calc(100% - 20px);
+	width: -webkit-calc(95% - 20px);
+	width: -moz-calc(95% - 20px);
 	border: none;
-	font-size: 1em;
 	font-weight: 200;
 	display: block;
 	padding: 10px 10px 2px 10px;
 	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
 	font-family: 'Helvetica Neue';
 	background-color: rgba(139, 131, 134, .15);
 }
+
 form{
 	width: -webkit-calc(100% - 40px);
 	width: -moz-calc(100% - 40px);
@@ -30,41 +34,35 @@ form{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 }
-input[type=radio]{
-	width: auto;
-}
-input[type=file]{
-	border: none;
-	font-size: .5em;
-	clear: left;
-}
-fieldset#section-dob label{
-	float: left;
-	clear: left;
-}
-textarea, select{
-	clear: left;
-	float: left;
-	display: block;
-}
-fieldset{
+form#form fieldset{
 	padding: 0px;
 	border: none;
 	float: left;
 	width: 100%;
 }
-textarea{
-	resize: none;
-	width: 400px;
-	height: 90px;
+fieldset#section-dob{
+	width: 50%;
 }
-input[type=radio]{
+fieldset#section-dob div{
+	float: none;
 	width: auto;
-	display: inline;
+	float: left;
 }
-input[type=radio] + label{
-	clear: none;
-	width: auto;
+fieldset#section-dob label{
+	float: left;
+	clear: left;
+	width: 100%;
+}
+fieldset#section-dob div{
+	width: 28%;
+	margin: 0px auto;
+}
+fieldset#section-dob select{
+	width: -webkit-calc(100% - 20px);
+	width: -moz-calc(100% - 20px);
+	margin: 0px 10px;
+	font-size: .6em;
+	font-weight: 100;
 }
 form div{
 	width: 49%;
@@ -76,10 +74,32 @@ form div:nth-child(odd){
 	float: right;
 }
 
-fieldset#section-dob div{
-	float: none;
-	width: auto;
+textarea, select{
+	clear: left;
 	float: left;
+	display: block;
+}
+textarea{
+	resize: none;
+	width: 400px;
+	height: 90px;
+}
+
+input[type=radio]{
+	width: auto;
+}
+input[type=file]{
+	border: none;
+	font-size: .5em;
+	clear: left;
+}
+input[type=radio]{
+	width: auto;
+	display: inline;
+}
+input[type=radio] + label{
+	clear: none;
+	width: auto;
 }
 
 .note{
@@ -92,8 +112,9 @@ fieldset#section-dob div{
 div>input[type="submit"], div.controls{
 	clear:both;
 	float: right;
-	width: -webkit-calc(50% - -5px);
-	width: -moz-calc(50% - -5px);
+	width: -webkit-calc(50% - 16px);
+	width: -moz-calc(50% - 16px);/*
+	margin-right: 32px;*/
 }
 div>input[type="submit"]{
 	color: rgba(248,248, 255, .9);
@@ -111,14 +132,34 @@ div>input[type="submit"]:active{
 /*level1 selects should not float*/
 select#searchin, select#words{
 	float: none;
+	margin: 10px;
+	font-size: .6em;
+	font-weight: 100;
 }
 
-
-
-
-
-
-
+/*styling level 3*/
+fieldset#section-dob{
+	border: none;
+}
+ul{
+	list-style: none;
+}
+input[type="checkbox"]{
+	float:left;
+	width: 25px;
+	margin-top: 5px;
+}
+em{
+	clear: both;
+}
+ div.controls{
+	width: 80%;
+	margin-right: 22px;
+}
+div#field-agree-tos{
+	font-size: .6em;
+	margin-top: -80px;
+}
 
 
 
