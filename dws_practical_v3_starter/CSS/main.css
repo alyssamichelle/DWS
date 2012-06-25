@@ -1,0 +1,162 @@
+#header{
+	background: url(../images/header_bg.jpg) repeat-x left top;
+	width: 100%;
+	overflow: hidden;
+}
+#header_content, #top_text, #main_content, #footer{
+	width: 960px;
+	margin: 0px auto;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font: .9em;
+	line-height: 17px;
+	color: #555;
+	font-family: helvetica, arial, sans-serif;
+}
+#header img{
+	margin-top: 17px;
+}
+#logo{
+	display: inline;
+}
+/*Upper Content^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+#text_wrap{
+	background-color: #5F980E;
+
+
+}
+#top_text{
+		background: url(../images/top_spotlight.png) no-repeat center top;
+		height: 137px;
+		padding-top: 3px;
+}
+ul#nav{
+	float: right;
+	margin: 0px;
+}
+#nav li{
+	list-style: none;
+	display: inline-block;
+	background: url(../images/nav_button_bg.jpg) no-repeat;
+
+}
+#nav a{
+	color: #a5a5a5;
+	text-decoration: none;
+	font-size: 12px;
+	width: 100%;
+	text-transform: uppercase;
+	line-height: 47px;
+	height: 47px;
+	padding: 0px 35px;
+	display: block;
+}
+#nav a:hover{
+	color: #fff;
+}
+
+h1{
+	font-size: 18px;
+	margin: 0px;
+}
+h2{
+	font-size: 14px;
+}
+h3{
+	font-size: 12px;
+}
+h4{
+	font-size: 10px;
+}
+/*green content>>>>>>>>>>>>>>>>>>>>*/
+.box_left, .box_middle, .box_right{
+	width: 280px;
+	padding: 20px;
+	float: left;
+	background: url(../images/title_sep.gif) repeat-y right top;
+	height: 60px;
+}
+.box_middle
+.box_right
+
+/*lower conent^^^^^^^^^^^^^^^^^*/
+#content_wrap{
+	background: url(../images/bg_repeat.gif) repeat-x left top;
+}
+/*blog crap//////////////////////////*/
+#content_about_blog{
+	width: 620px;
+	float: left;
+	margin-top: -58px;
+	background: url(../images/content_bg.gif) no-repeat left top;
+	clear: left;
+}
+
+/*sidebar^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+#sidebar{
+	background: url(../images/sidebar_bg.gif) no-repeat left top;
+	float: right;
+	width: 305px;
+	margin-top: -58px;
+}
+
+.categories{
+	font-size: 14px;
+}
+
+#sidebar div.categories  li{
+	list-style: none;
+	
+}
+.categories a{
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+}
+
+
+#footer_wrapper{
+	clear: both;
+	color: #ccc ;
+	background-color: #000;
+}
+#footer{
+	width: 960px;
+	text-align: center;
+}
+#footer a{
+	margin-left: 3px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+/*button for the form*/
+input[type=submit]{
+	background: url(../images/btn.gif) no-repeat left top;
+}
+input[type=submit]:hover{
+	background: url(../images/btn.gif) no-repeat left -16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
